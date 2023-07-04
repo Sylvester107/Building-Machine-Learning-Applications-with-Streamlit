@@ -41,6 +41,10 @@ streamlit run src/App.py #in the terminal
 ```
 This will open the App in your browser
 
+**Deployment**
+This app has been deployed on Streamlit cloud platform
+access it [here](https://salespredictionwithprophet.streamlit.app)
+
 👥 **Authors**
 =================
 
