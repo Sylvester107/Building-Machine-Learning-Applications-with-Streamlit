@@ -131,7 +131,7 @@ try:
     The Earliest Day in prediction starts from August 16 2017''')
     elif option3:
         st.sidebar.write('''
-        Developed  Sylvester Junior Ampomah😎\nI love learning and...I don't remember I will update this session when I recall all my abilities
+        Developed by Sylvester Junior Ampomah😎\nI love learning and...I don't know I will update this session when I am able to recall all my abilities
         ''')
 
         
