@@ -37,7 +37,7 @@ with st.form("This form",clear_on_submit = True):
 
             #import model
             with open('src/model/prophet_model.pkl','rb') as f:
-                model=pickle.load(f)
+                model=pd.read_pickle(f)
 
             #pass inputs to the model(To make predictions, prophet requires number of days and frequency)
             future=model.make_future_dataframe(periods=Number_of_days ,freq=str(frequency),include_history=False)
