@@ -114,18 +114,21 @@ try:
     sidebar = st.sidebar.title('Sales Prediction')
 
     #first option
-    option1=st.sidebar.button('About',key="About")
+    option1=st.sidebar.button('About This Project',key="About")
 
     #second option
-    option2=st.sidebar.button('About the sales prediction',key="sales prediction")
+    option2=st.sidebar.button('About The Sales Prediction',key="sales prediction")
 
     #Display text for a selected option
     if option1:
-        st.sidebar.write('This is a Sales prediction app Using Prophet(Developed by meta), this project was done under the Azubi Africa Data Analysis Training program ')
+        st.sidebar.write('This is a Sales prediction app Using Prophet(Developed by meta).\nThis project was done under the Azubi Africa Data Analysis Training program ')
 
     elif option2:
-        st.sidebar.write('''.This is a time series analysis & forecasting problem. In this project, we shalll predict store sales on data from Corporation Favorita, a large Ecuadorian-based grocery retailer.
-    Specifically, This app predicts the sales for up to  weeks in advance for corporation favorita ''')
+        st.sidebar.write('''This is a time series analysis & forecasting problem.\nIn this project, we shalll predict store sales on data from Corporation Favorita, a large Ecuadorian-based grocery retailer.\nSpecifically, This app predicts the sales for up to  weeks in advance for corporation favorita.
+    The Earliest Day in prediction starts from August 16 2017
+
+    
+    ''')
         
 
 except:
